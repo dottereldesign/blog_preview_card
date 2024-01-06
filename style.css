@@ -120,3 +120,57 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
+
+* {
+  font-family: var(--ff-primary-100);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article {
+  width: min(100%, 336px);
+  margin: 32px auto 0 auto;
+}
+
+.card_img {
+  border-radius: 12px;
+}
+
+.card .badge {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: var(--fs-400);
+  font-weight: var(--fw-bold);
+  background-color: var(--clr-primary-100);
+  padding: 2px 12px;
+  border-radius: 4px;
+}
+
+.card header {
+  margin-top: 8px;
+}
+
+.card time {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-medium);
+}
+
+.card h1 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-extra-bold);
+  margin-top: 12px;
+}
+
+.card p {
+  margin-top: 16px;
+  font-size: var(--fs-500);
+  font-weight: var(--fw-regular);
+}
+
+.card footer {
+  margin-top: 16px;
+}
